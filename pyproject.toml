@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ddtemplate"
+version = "0.1.0"
+description = "Minimalistic django template project with a functional docker running postgress db, poetry and makefile"
+authors = ["Javier Aguilera <jaguilerapuerta@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0.2"
+psycopg2-binary = "^2.9.3"
+djangorestframework = "^3.13.1"
+django-extensions = "^3.1.5"
+Werkzeug = "^2.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+pylint = "^2.12.2"
+ipython = "^8.0.1"
+pdbpp = "^0.10.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
