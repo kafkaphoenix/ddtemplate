@@ -39,6 +39,8 @@ services:
       POSTGRES_USER: ddtemplate
       POSTGRES_PASSWORD: ddtemplate
       POSTGRES_DB: ddtemplate
+    #volumes:
+    #  - data-volume:/var/lib/postgresql/data
 
   isort:
     <<: *base
