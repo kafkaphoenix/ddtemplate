@@ -1,4 +1,3 @@
-
 .PHONY: test
 test: ##@test Run unit, integration tests and combine coverage.
 test: unit-test integration-test coverage-combine
